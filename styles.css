@@ -1,9 +1,13 @@
 body {
-    background-color: rgba(0, 0, 255, 0.5); /* لون أزرق شفاف */
+    background-image: url('presentation bg main.jpg'); /* استخدم اسم الملف المرفوع */
+    background-size: cover; /* يجعل الصورة تغطي الشاشة بالكامل */
+    background-position: center; /* يضع الصورة في منتصف الصفحة */
+    background-repeat: no-repeat; /* يمنع تكرار الصورة */
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
+
 
 
 .container {
