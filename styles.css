@@ -40,3 +40,14 @@ button:hover {
     padding: 10px;
     border-radius: 10px; /* لجعل الزوايا مستديرة، اختياري */
 }
+.chat-box {
+    background-image: url('presentation bg main.jpg'); /* استخدم نفس اسم الملف الذي رفعته */
+    background-size: cover; /* لجعل الصورة تغطي المنطقة بالكامل */
+    background-position: center; /* يضع الصورة في منتصف المنطقة */
+    background-repeat: no-repeat; /* يمنع تكرار الصورة */
+    padding: 10px;
+    border-radius: 10px; /* لجعل الزوايا مستديرة (اختياري) */
+    color: white; /* تغيير لون النص بداخل منطقة المراسلة، اختياري */
+    height: 300px; /* تحديد ارتفاع منطقة المراسلة */
+    overflow-y: auto; /* للسماح بالتمرير داخل منطقة المراسلة */
+}
