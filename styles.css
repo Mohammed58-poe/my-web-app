@@ -1,12 +1,10 @@
-﻿body {
+body {
+    background-color: rgba(0, 0, 255, 0.5); /* لون أزرق شفاف */
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
     margin: 0;
+    padding: 0;
 }
+
 
 .container {
     text-align: center;
