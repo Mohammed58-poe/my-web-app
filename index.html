@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مساعد شؤون القاعات</title>
+    <!-- إعدادات PWA -->
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>مساعد شؤون القاعات</h1>
+        <p>مرحبًا بك! استخدم المساعد لطلب أي معلومات تحتاجها عن قاعات الجامعة والفعاليات.</p>
+        <!-- زر فتح المساعد -->
+        <button onclick="openAssistant()">فتح المساعد</button>
+    </div>
+
+    <!-- Script لفتح المساعد -->
+    <script>
+        function openAssistant() {
+            window.open('https://poe.com/CEAD_SQU.V1', '_blank');
+        }
+    </script>
+<!-- تسجيل Service Worker -->
+<script>
+    if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('service-worker.js')
+            .then(() => console.log('Service Worker Registered'))
+            .catch(error => console.error('Service Worker Registration Failed:', error));
+    }
+</script>
+
+</body>
+</html>
